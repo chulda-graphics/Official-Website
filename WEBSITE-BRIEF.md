@@ -108,3 +108,11 @@ See [versions, licences, scripts and compatibility](docs/SKILL-AUDIT.md). Sugges
 6. Validate real media budgets, LCP/CLS and scroll frame behaviour on a representative phone; reserve image dimensions, prioritize only hero media, lazy-load later galleries. Review preview only; production merge/deployment requires separate approval.
 
 **Stop after phase 1.** Approval of these planning documents is not approval to install, implement, publish or merge.
+
+## Phase 2 authorization and status — 2026-10-04
+
+The owner's subsequent phase-2 request authorizes the layout prototype and development-branch commit/push. They explicitly approved placeholders and confirmed Cloudflare is not connected and will be connected by them only when finished. No cloud configuration/deployment or production merge is authorized or performed. This clarification resolves the earlier executable-push gate for this phase without altering the design direction above.
+
+Implemented the static, vertical visual slice: Home → selected project → project opening, plus the directly accessible Work index and Contact section. Target repository had no framework; a dependency-free Node static generator preserves the static-first direction. The reviewed frontend-design and web-design-guidelines skills are installed individually at repository scope; GSAP skills remain conditional on later GSAP implementation, React guidance inapplicable. See [prototype review](docs/PROTOTYPE.md) and [pinned skill provenance](docs/SKILLS-LOCK.md).
+
+Signature motion and the single bounded desktop horizontal chapter remain proposed for a later phase, not replaced or implemented prematurely. Missing media and facts are labelled. Stop here for visual approval before further design/motion work.
